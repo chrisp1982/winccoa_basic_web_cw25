@@ -1,0 +1,302 @@
+WCCILpmon    (1), 2022.06.20 14:51:19.462, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.20 14:51:28.141, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2022.06.20 14:51:28.149, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2022.06.20 14:51:28.149, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.20 15:05:26.315, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.20 15:12:40.934, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2022.06.20 15:12:40.973, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.06.20 15:12:42.244, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.06.20 15:12:42.601, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.06.20 15:12:43.164, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.06.20 15:12:47.953, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.06.20 15:12:48.307, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ basic_web_cw25 -pmonIndex 6 
+WCCILpmon    (1), 2022.06.20 15:12:48.647, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.20 15:13:05.212, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.06.20 15:15:56.154, SYS,  INFO,       29/pmon, Got PROP_PUT command from 127.0.0.1, changing manager WCCOAui(1) at index 7
+WCCILpmon    (1), 2022.06.20 15:16:10.693, SYS,  INFO,       29/pmon, Got PROP_PUT command from 127.0.0.1, changing manager WCCOAui(1) at index 7
+WCCILpmon    (1), 2022.06.20 15:16:49.888, SYS,  INFO,       28/pmon, Got INS command from 127.0.0.1, inserting new manager WCCOAui at index 8
+WCCILpmon    (1), 2022.06.20 15:16:54.240, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 8
+WCCILpmon    (1), 2022.06.20 15:16:54.246, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 8 -m para -user para
+WCCILpmon    (1), 2022.06.20 15:25:45.913, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2022.06.20 15:25:45.913, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.20 15:25:45.914, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.20 15:25:45.914, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.20 15:25:45.915, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.20 15:25:47.099, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.20 15:25:47.212, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.20 15:25:48.302, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.20 15:25:49.235, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.06.20 15:25:55.730, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.20 15:25:55.731, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.20 15:25:55.731, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.21 08:40:11.509, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.21 08:40:18.873, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2022.06.21 08:40:18.879, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.06.21 08:40:20.187, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.06.21 08:40:20.511, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.06.21 08:40:20.958, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.06.21 08:40:21.174, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.06.21 08:40:21.390, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ basic_web_cw25 -pmonIndex 6 
+WCCILpmon    (1), 2022.06.21 08:40:21.560, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.21 08:40:23.582, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.06.21 10:31:01.005, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 8
+WCCILpmon    (1), 2022.06.21 10:31:01.014, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 8 -m para -user para
+WCCILpmon    (1), 2022.06.21 12:13:41.809, SYS,  WARNING,    36/pmon, Blocking Manager WCCOAui(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2022.06.21 12:15:06.911, SYS,  WARNING,    39/pmon, Manager WCCOAui(1) is no longer blocking.
+WCCILpmon    (1), 2022.06.21 12:29:35.108, SYS,  WARNING,    36/pmon, Blocking Manager WCCOAui(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2022.06.21 12:31:00.274, SYS,  WARNING,    39/pmon, Manager WCCOAui(1) is no longer blocking.
+WCCILpmon    (1), 2022.06.21 15:37:36.386, SYS,  INFO,       28/pmon, Got INS command from 127.0.0.1, inserting new manager WCCOActrl at index 9
+WCCILpmon    (1), 2022.06.21 15:38:16.812, SYS,  INFO,       29/pmon, Got PROP_PUT command from 127.0.0.1, changing manager WCCOActrl(1) at index 9
+WCCILpmon    (1), 2022.06.21 15:38:44.559, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(1) at index 9
+WCCILpmon    (1), 2022.06.21 15:38:44.564, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.21 15:40:19.275, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.21 15:40:19.276, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 15:40:26.836, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.21 15:40:26.841, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.21 15:41:01.027, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.21 15:41:01.028, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 15:41:04.055, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.21 15:41:04.060, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.21 16:01:55.535, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2022.06.21 16:01:55.536, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 16:01:55.536, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 16:01:55.537, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 16:01:55.537, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 16:01:56.723, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 16:01:56.941, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 16:01:57.871, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.21 16:01:58.950, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.06.21 16:02:48.404, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.21 16:02:48.404, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.21 16:02:48.405, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.22 08:18:13.652, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.22 08:18:18.296, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2022.06.22 08:18:18.301, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.06.22 08:18:19.622, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.06.22 08:18:19.950, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.06.22 08:18:20.444, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.06.22 08:18:20.657, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.06.22 08:18:20.875, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ basic_web_cw25 -pmonIndex 6 
+WCCILpmon    (1), 2022.06.22 08:18:21.090, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.22 08:18:24.103, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.22 08:18:24.269, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.06.22 09:59:03.017, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.22 09:59:03.017, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 09:59:06.876, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.22 09:59:06.881, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.22 12:11:20.122, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.22 12:11:20.128, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 12:11:25.405, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.22 12:11:25.410, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.22 12:25:17.275, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.22 12:25:17.275, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 12:25:23.753, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.22 12:25:23.783, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.22 12:37:07.832, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.22 12:37:07.833, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 12:37:11.525, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.22 12:37:11.530, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.22 14:37:53.086, SYS,  INFO,       28/pmon, Got INS command from 127.0.0.1, inserting new manager WCCOAui at index 10
+WCCILpmon    (1), 2022.06.22 14:37:56.437, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 10
+WCCILpmon    (1), 2022.06.22 14:37:56.442, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.22 14:41:26.695, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.22 14:41:26.703, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.22 15:01:21.532, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.22 15:01:21.541, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.22 15:02:12.892, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.22 15:02:12.898, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.22 15:04:14.642, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.22 15:04:14.647, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.22 15:04:55.409, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.22 15:04:55.414, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.22 15:25:26.732, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2022.06.22 15:25:26.733, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 15:25:26.733, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 15:25:26.734, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 15:25:26.734, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 15:25:26.735, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 15:25:28.568, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 15:25:28.677, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 15:25:29.651, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.22 15:25:30.521, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.06.22 15:25:53.214, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.22 15:25:53.215, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.22 15:25:53.215, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.23 08:11:05.657, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.23 08:11:09.098, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2022.06.23 08:11:09.104, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.06.23 08:11:10.402, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.06.23 08:11:10.738, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.06.23 08:11:11.174, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.06.23 08:11:11.496, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.06.23 08:11:11.711, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ basic_web_cw25 -pmonIndex 6 
+WCCILpmon    (1), 2022.06.23 08:11:11.931, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.23 08:11:14.560, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.23 08:11:14.774, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.06.23 09:09:31.863, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2022.06.23 09:09:31.865, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 09:09:31.866, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 09:09:31.866, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 09:09:31.867, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 09:09:31.867, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 09:09:33.695, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 09:09:33.801, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 09:09:34.775, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 09:09:35.719, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.06.23 09:09:50.783, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.23 09:09:50.784, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.23 09:09:50.784, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.23 09:18:41.045, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.23 09:18:43.240, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2022.06.23 09:18:43.248, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.06.23 09:18:44.497, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.06.23 09:18:44.929, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.06.23 09:18:45.439, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.06.23 09:18:45.666, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.06.23 09:18:45.881, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ basic_web_cw25 -pmonIndex 6 
+WCCILpmon    (1), 2022.06.23 09:18:46.096, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.23 09:18:54.179, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.23 09:18:54.392, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.06.23 10:02:58.112, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.23 10:02:58.113, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:03:04.311, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.23 10:03:04.316, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.23 10:06:01.194, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.23 10:06:01.195, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:06:06.300, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.23 10:06:06.304, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.23 10:45:09.600, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 7
+WCCILpmon    (1), 2022.06.23 10:45:09.604, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.23 10:47:00.488, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 10
+WCCILpmon    (1), 2022.06.23 10:47:00.493, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.23 10:49:53.106, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2022.06.23 10:49:53.107, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:49:53.108, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:49:53.108, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:49:53.108, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:49:53.109, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:49:54.399, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:49:54.506, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:49:55.491, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 10:49:56.427, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.06.23 10:50:07.204, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.23 10:50:07.204, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.23 10:50:07.205, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.23 10:55:53.421, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.23 10:56:31.297, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2022.06.23 10:56:31.322, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.06.23 10:56:32.477, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.06.23 10:56:32.821, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.06.23 10:56:33.155, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.06.23 10:56:33.374, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.06.23 10:56:33.718, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ basic_web_cw25 -pmonIndex 6 
+WCCILpmon    (1), 2022.06.23 10:56:33.934, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.23 10:56:36.863, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.23 10:56:37.074, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.06.23 10:57:28.024, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 10
+WCCILpmon    (1), 2022.06.23 10:57:28.028, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.23 11:34:14.578, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.23 11:34:14.583, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.23 11:34:58.917, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.23 11:34:58.921, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.23 11:51:21.488, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.23 11:51:21.493, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.23 13:56:57.460, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.23 13:56:57.465, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.23 15:52:11.401, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2022.06.23 15:52:11.402, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 15:52:11.402, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 15:52:11.403, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 15:52:11.403, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 15:52:13.171, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 15:52:13.387, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 15:52:14.361, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.23 15:52:14.792, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.06.23 15:52:28.549, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.23 15:52:28.550, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.23 15:52:28.550, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.24 08:16:43.461, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.24 08:16:48.612, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2022.06.24 08:16:48.620, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.06.24 08:16:49.934, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.06.24 08:16:50.232, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.06.24 08:16:50.560, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.06.24 08:16:50.879, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.06.24 08:16:51.097, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ basic_web_cw25 -pmonIndex 6 
+WCCILpmon    (1), 2022.06.24 08:16:51.312, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.24 08:16:53.555, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.24 08:16:53.767, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.06.24 09:25:18.636, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 10
+WCCILpmon    (1), 2022.06.24 09:25:18.643, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.24 10:08:26.884, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.24 10:08:26.896, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.24 11:35:17.127, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.24 11:35:17.133, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.24 12:24:06.251, SYS,  INFO,       28/pmon, Got INS command from 127.0.0.1, inserting new manager WCCOActrl at index 11
+WCCILpmon    (1), 2022.06.24 12:24:13.075, SYS,  INFO,       29/pmon, Got PROP_PUT command from 127.0.0.1, changing manager WCCOActrl(1) at index 11
+WCCILpmon    (1), 2022.06.24 12:24:16.539, SYS,  INFO,       29/pmon, Got PROP_PUT command from 127.0.0.1, changing manager WCCOActrl(1) at index 11
+WCCILpmon    (1), 2022.06.24 12:26:08.110, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(1) at index 11
+WCCILpmon    (1), 2022.06.24 12:26:08.123, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 11 webclient_http.ctl
+WCCILpmon    (1), 2022.06.24 12:26:57.368, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 7
+WCCILpmon    (1), 2022.06.24 12:26:57.374, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.24 12:31:31.848, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(3) at index 11
+WCCILpmon    (1), 2022.06.24 12:31:31.850, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(3) with signal SIGTERM
+WCCILpmon    (1), 2022.06.24 12:35:17.403, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 7
+WCCILpmon    (1), 2022.06.24 12:35:17.411, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.24 14:46:48.081, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 10
+WCCILpmon    (1), 2022.06.24 14:46:48.087, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 10 -p vision/login.pnl -iconBar -menuBar
+WCCILpmon    (1), 2022.06.24 15:12:57.021, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2022.06.24 15:12:57.021, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.24 15:12:57.022, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.24 15:12:57.022, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.24 15:12:57.023, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.24 15:12:58.800, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.24 15:12:58.908, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.24 15:12:59.885, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.24 15:12:59.993, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.06.24 15:13:27.911, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.24 15:13:27.912, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.24 15:13:27.912, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.27 08:48:17.956, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.27 08:48:23.089, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2022.06.27 08:48:23.098, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.06.27 08:48:24.413, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.06.27 08:48:24.720, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.06.27 08:48:25.049, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.06.27 08:48:25.286, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.06.27 08:48:25.627, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILsim.exe -PROJ basic_web_cw25 -pmonIndex 6 
+WCCILpmon    (1), 2022.06.27 08:48:25.845, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.06.27 08:48:27.950, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.27 08:48:28.266, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.06.27 09:21:27.598, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.27 09:21:27.603, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 09:21:30.448, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.27 09:21:30.453, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.27 09:23:37.835, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.27 09:23:37.835, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 09:23:40.887, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.27 09:23:40.900, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.06.27 12:13:46.198, SYS,  INFO,       29/pmon, Got PROP_PUT command from 127.0.0.1, changing manager WCCILsim(1) at index 6
+WCCILpmon    (1), 2022.06.27 12:13:48.887, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCILsim(1) at index 6
+WCCILpmon    (1), 2022.06.27 12:13:48.888, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 12:15:29.870, SYS,  INFO,       28/pmon, Got INS command from 127.0.0.1, inserting new manager WCCOAmod at index 12
+WCCILpmon    (1), 2022.06.27 12:15:29.871, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAmod(1) - restarting it #1
+WCCILpmon    (1), 2022.06.27 12:15:29.925, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAmod.exe -PROJ basic_web_cw25 -pmonIndex 12 -num 1
+WCCILpmon    (1), 2022.06.27 14:19:47.412, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from 127.0.0.1, stopping the manager WCCOActrl(2) at index 9
+WCCILpmon    (1), 2022.06.27 14:19:47.413, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 15:42:41.827, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2022.06.27 15:42:41.827, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 15:42:41.828, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 15:42:41.828, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 15:42:41.829, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 15:42:43.650, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 15:42:43.759, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 15:42:44.702, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.06.27 15:42:45.678, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.06.27 15:45:07.426, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.27 15:45:07.427, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.27 15:45:07.427, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.06.28 10:25:19.950, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.06.28 11:32:42.251, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.06.28 11:32:42.256, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.06.28 11:32:42.258, SYS,  INFO,        2, Manager Stop

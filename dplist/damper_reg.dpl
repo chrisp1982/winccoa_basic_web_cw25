@@ -1,0 +1,18 @@
+# ascii dump of database
+
+# DpType
+TypeName
+damper.damper	1#1
+	command	1#2
+		setpoint	22#3
+	response	1#4
+		actvalue	22#5
+		state	1#6
+			open	23#7
+			close	23#8
+			run	23#9
+		alarm	1#10
+			travellimit	23#11
+			temp	22#12
+		info	25#13
+		info2	25

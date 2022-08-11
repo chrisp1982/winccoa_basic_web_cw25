@@ -1,0 +1,2065 @@
+{
+    "array_v1": [
+        [
+            "FLAGS",
+            "en_US.utf8",
+            "de_AT.utf8",
+            "it_IT.utf8",
+            "location"
+        ],
+        [
+            "",
+            "@%4.2f@",
+            "@%4.2f@",
+            "@%4.2f@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "@@%",
+            "@@%",
+            "@@%",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "@@h",
+            "@@h",
+            "@@h",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "@@min",
+            "@@min",
+            "@@min",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "A product from\nETM professional control GmbH\nA Siemens Company\nMarktstraße 3, A-7000 Eisenstadt, www.etm.at\n\n\n",
+            "Ein Produkt der\nETM professional control GmbH\nA Siemens Company\nMarktstraße 3, A-7000 Eisenstadt, www.etm.at\n\n\n",
+            "<** not defined **>",
+            "panels/about.pnl"
+        ],
+        [
+            "",
+            "ASCII@@",
+            "ASCII@@",
+            "ASCII@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "ASCII_2@@",
+            "ASCII_2@@",
+            "ASCII_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "About",
+            "Info",
+            "<** not defined **>",
+            "panels/about.pnl"
+        ],
+        [
+            "",
+            "Alert",
+            "Alarm",
+            "Alert",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert Damper",
+            "Alert Damper",
+            "Alert Damper",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert H2 _mp_DRIVE1",
+            "Hochalarm H2 _mp_DRIVE1",
+            "Alert H2 _mp_DRIVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert H2 _mp_DRIVE2",
+            "Hochalarm H2 _mp_DRIVE2",
+            "Alert H2 _mp_DRIVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert H2 _mp_PUMP1",
+            "Hochalarm H2 _mp_PUMP1",
+            "Alert H2 _mp_PUMP1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert H2 _mp_PUMP2",
+            "Hochalarm H2 _mp_PUMP2",
+            "Alert H2 _mp_PUMP2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert H2 _mp_SETPOINT",
+            "Hochalarm H2 _mp_SETPOINT",
+            "Alert H2 _mp_SETPOINT",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert H2 _mp_SLIDE_VALVE1",
+            "Hochalarm H2 _mp_SLIDE_VALVE1",
+            "Alert H2 _mp_SLIDE_VALVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert H2 _mp_SLIDE_VALVE2",
+            "Hochalarm H2 _mp_SLIDE_VALVE2",
+            "Alert H2 _mp_SLIDE_VALVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert L2 _mp_DRIVE1",
+            "Niederalarm L2 _mp_DRIVE1",
+            "Alert L2 _mp_DRIVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert L2 _mp_DRIVE2",
+            "Niederalarm L2 _mp_DRIVE2",
+            "Alert L2 _mp_DRIVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert L2 _mp_PUMP1",
+            "Niederalarm L2 _mp_PUMP1",
+            "Alert L2 _mp_PUMP1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert L2 _mp_PUMP2",
+            "Niederalarm L2 _mp_PUMP2",
+            "Alert L2 _mp_PUMP2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert L2 _mp_SETPOINT",
+            "Niederalarm L2 _mp_SETPOINT",
+            "Alert L2 _mp_SETPOINT",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert L2 _mp_SLIDE_VALVE1",
+            "Niederalarm L2 _mp_SLIDE_VALVE1",
+            "Alert L2 _mp_SLIDE_VALVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert L2 _mp_SLIDE_VALVE2",
+            "Niederalarm L2 _mp_SLIDE_VALVE2",
+            "Alert L2 _mp_SLIDE_VALVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert Motor hot",
+            "Alert Motor hot",
+            "Alert Motor hot",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert Travellimit",
+            "Alert Travellimit",
+            "Alert Travellimit",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert came",
+            "Alarm kam",
+            "Alert came",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alert gone",
+            "Alarm ging",
+            "Alert gone",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alerts",
+            "Alerts",
+            "Alerts",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Alerts@%s@",
+            "Alerts@%s@",
+            "Alerts@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Api@@",
+            "Api@@",
+            "Api@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Api_2@@",
+            "Api_2@@",
+            "Api_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Arial,-1,13,5,40,0,0,0,0,0",
+            "Arial,-1,13,5,40,0,0,0,0,0",
+            "Arial,-1,13,5,40,0,0,0,0,0",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Arial,-1,13,5,50,0,0,0,0,0,Standard",
+            "Arial,-1,13,5,50,0,0,0,0,0,Standard",
+            "Arial,-1,13,5,50,0,0,0,0,0,Standard",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Arial,-1,13,5,75,0,0,0,0,0,Fett",
+            "Arial,-1,13,5,75,0,0,0,0,0,Fett",
+            "Arial,-1,13,5,75,0,0,0,0,0,Fett",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Backup is running",
+            "Backup laeuft",
+            "Backup is running",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Blocking Manager",
+            "Blockierender Manager",
+            "Blocking Manager",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "CLOSE",
+            "SCHLIESSEN",
+            "CHIUDI",
+            "panels/damper1.pnl\npanels/objects/damper_ref.pnl"
+        ],
+        [
+            "",
+            "CTRL@@",
+            "CTRL@@",
+            "CTRL@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "CTRL_2@@",
+            "CTRL_2@@",
+            "CTRL_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Commands",
+            "Commands",
+            "Commands",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Commands@%s@",
+            "Commands@%s@",
+            "Commands@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Configuration database OK",
+            "Konfigurationsdatenbank OK",
+            "Configuration database OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Configuration database has errors",
+            "Konfigurationsdatenbank ist fehlerhaft",
+            "Configuration database has errors",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DP filter:",
+            "DP-Filter:",
+            "DP filter:",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Damper",
+            "Klappe",
+            "Valvola",
+            "panels/objects/damper_ref.pnl"
+        ],
+        [
+            "",
+            "Damper 11 - Alert@@",
+            "Klappe 11 - Alert@@",
+            "Valvola 11 - Alert@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper 11 - Danger@@",
+            "Klappe 11 - Danger@@",
+            "Valvola 11 - Danger@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper 11 - Warning@@",
+            "Klappe 11 - Warning@@",
+            "Valvola 11 - Warning@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper 3 - Alert@@",
+            "Klappe 3 - Alert@@",
+            "Valvola 3 - Alert@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper 3 - Danger@@",
+            "Klappe 3 - Danger@@",
+            "Valvola 3 - Danger@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper 3 - Warning@@",
+            "Klappe 3 - Warning@@",
+            "Valvola 3 - Warning@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper 5 - Alert@@",
+            "Klappe 5 - Alert@@",
+            "Valvola 5 - Alert@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper 5 - Danger@@",
+            "Klappe 5 - Danger@@",
+            "Valvola 5 - Danger@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper 5 - Warning@@",
+            "Klappe 5 - Warning@@",
+            "Valvola 5 - Warning@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: ",
+            "Klappe: ",
+            "Valvola: ",
+            "msg/training.cat"
+        ],
+        [
+            "",
+            "Damper: _mp_damper@%s@",
+            "Klappe: _mp_damper@%s@",
+            "Valvola: _mp_damper@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d10@@",
+            "Klappe: d10@@",
+            "Valvola: d10@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d11@@",
+            "Klappe: d11@@",
+            "Valvola: d11@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d12@@",
+            "Klappe: d12@@",
+            "Valvola: d12@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d13@@",
+            "Klappe: d13@@",
+            "Valvola: d13@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d14@@",
+            "Klappe: d14@@",
+            "Valvola: d14@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d15@@",
+            "Klappe: d15@@",
+            "Valvola: d15@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d1@%s@",
+            "Klappe: d1@%s@",
+            "Valvola: d1@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d2@@",
+            "Klappe: d2@@",
+            "Valvola: d2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d3@@",
+            "Klappe: d3@@",
+            "Valvola: d3@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d4@@",
+            "Klappe: d4@@",
+            "Valvola: d4@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d5@@",
+            "Klappe: d5@@",
+            "Valvola: d5@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d6@@",
+            "Klappe: d6@@",
+            "Valvola: d6@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d7@@",
+            "Klappe: d7@@",
+            "Valvola: d7@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d8@@",
+            "Klappe: d8@@",
+            "Valvola: d8@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Damper: d9@@",
+            "Klappe: d9@@",
+            "Valvola: d9@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Data@@",
+            "Data@@",
+            "Data@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager H2: Diskspace OK",
+            "DataManager H2: ausreichend Festplattenplatz",
+            "DataManager H2: Diskspace OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager H2: Entring emergency mode !",
+            "DataManager H2: Schalte in Emergency Mode !",
+            "DataManager H2: Entring emergency mode !",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager H2: Low disk space alert",
+            "DataManager H2: Speicherplatz der Festplatte unterschritten",
+            "DataManager H2: Low disk space alert",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager H2: Low memory alert",
+            "DataManager H2: Zuwenig Hauptspeicher",
+            "DataManager H2: Low memory alert",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager H2: Memory OK",
+            "DataManager H2: ausreichend Hauptspeicher",
+            "DataManager H2: Memory OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager H2: Normal mode",
+            "DataManager H2: Regulaerer Betriebsmodus",
+            "DataManager H2: Normal mode",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager: Diskspace OK",
+            "DataManager: ausreichend Festplattenplatz",
+            "DataManager: Diskspace OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager: Low disk space alert",
+            "DataManager: Speicherplatz der Festplatte unterschritten",
+            "DataManager: Low disk space alert",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager: Low memory alert",
+            "DataManager: Zuwenig Hauptspeicher",
+            "DataManager: Low memory alert",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager: Memory OK",
+            "DataManager: ausreichend Hauptspeicher",
+            "DataManager: Memory OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager: Normal mode",
+            "DataManager: Regulaerer Betriebsmodus",
+            "DataManager: Normal mode",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "DataManager: Switching to emergency mode !",
+            "DataManager: Schalte in Emergency Mode !",
+            "DataManager: Switching to emergency mode !",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Data_2@@",
+            "Data_2@@",
+            "Data_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Database OK",
+            "Datenbank OK",
+            "Database OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Database repair failed",
+            "Datenbankreparatur erfolglos",
+            "Database repair failed",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Datapoint parameterization",
+            "Datenpunkt-Parametrierung",
+            "Datapoint parameterization",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Dde@@",
+            "Dde@@",
+            "Dde@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Dde_2@@",
+            "Dde_2@@",
+            "Dde_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Device@@",
+            "Device@@",
+            "Device@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Device_2@@",
+            "Device_2@@",
+            "Device_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Disk almost full",
+            "Festplatte fast voll",
+            "Disk almost full",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Disk full",
+            "Festplatte voll",
+            "Disk full",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Disk space OK",
+            "Festplatte OK",
+            "Disk space OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Dist@@",
+            "Dist@@",
+            "Dist@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Dist_2@@",
+            "Dist_2@@",
+            "Dist_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Driver overloaded",
+            "Treiber ueberlastet",
+            "Driver overloaded",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Driver@@",
+            "Treiber@@",
+            "Driver@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Driver_2@@",
+            "Treiber_2@@",
+            "Driver_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Emergencymode",
+            "Emergencymode",
+            "Emergencymode",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Error",
+            "Fehler",
+            "Error",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Error occured",
+            "Error ist aufgetreten",
+            "Error occured",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Event@@",
+            "Event@@",
+            "Event@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Event_2@@",
+            "Event_2@@",
+            "Event_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Filter options:",
+            "Filter-Optionen:",
+            "Filter options:",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "GER",
+            "DE",
+            "GER",
+            "panels/overview.pnl"
+        ],
+        [
+            "",
+            "Geraet AUSSCHALTEN !",
+            "Switch device OFF !",
+            "Geraet AUSSCHALTEN !",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "High alert occured",
+            "Hochalarm aufgetreten",
+            "High alert occured",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "High warning occured",
+            "Hochwarnung aufgetreten",
+            "High warning occured",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ignore case",
+            "Groß/klein ignorieren",
+            "Ignore case",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Internal datapoints",
+            "Interne Datenpunkte",
+            "Internal datapoints",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "KPI instance was disabled.",
+            "KPI Instanz wurde deaktiviert.",
+            "KPI instance was disabled.",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Lastvalue database OK",
+            "Letztwertdatenbank OK",
+            "Lastvalue database OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Lastvalue database has errors",
+            "Letztwertdatenbank ist fehlerhaft",
+            "Lastvalue database has errors",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Layer1",
+            "Layer1",
+            "Layer1",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Layer2",
+            "Layer2",
+            "Layer2",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Layer3",
+            "Layer3",
+            "Layer3",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Layer4",
+            "Layer4",
+            "Layer4",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Layer5",
+            "Layer5",
+            "Layer5",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Layer6",
+            "Layer6",
+            "Layer6",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Layer7",
+            "Layer7",
+            "Layer7",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Layer8",
+            "Layer8",
+            "Layer8",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "License OK",
+            "Lizenz OK",
+            "License OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "License check failed",
+            "Lizenzprüfung fehlgeschlagen",
+            "License check failed",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "License check successful",
+            "Lizenzprüfung erfolgreich",
+            "License check successful",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "License expires",
+            "Lizenz laeuft ab",
+            "License expires",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "License insufficent",
+            "Lizenz nicht ausreichend",
+            "License insufficent",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "License invalid@@",
+            "Lizenz ungültig@@",
+            "License invalid@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Low alert occured",
+            "Niederalarm aufgetreten",
+            "Low alert occured",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Low warning occured",
+            "Niederwarnung aufgetreten",
+            "Low warning occured",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0",
+            "MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0",
+            "MS Shell Dlg 2,-1,11,5,50,0,0,0,0,0",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Maintenance necessary",
+            "Wartung noetig",
+            "Maintenance necessary",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Maintenance shortly",
+            "Wartung in Kuerze",
+            "Maintenance shortly",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Maximum record count almost reached",
+            "Maximale Record-Anzahl fast erreicht",
+            "Maximum record count almost reached",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Maximum record count reached - please check the database!",
+            "Maximale Record-Anzahl erreicht - Bitte Datenbank prüfen!",
+            "Maximum record count reached - please check the database!",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Memory OK",
+            "RAM Speicher OK",
+            "Memory OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Memory almost full",
+            "RAM Speicher fast voll",
+            "Memory almost full",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Memory full",
+            "RAM Speicher voll",
+            "Memory full",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Newest alert archive OK",
+            "Neuestes Alarmarchiv OK",
+            "Newest alert archive OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "No backup is running",
+            "Kein Backup laeuft",
+            "No backup is running",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "No maintenance necessary",
+            "Keine Wartung noetig",
+            "No maintenance necessary",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Noto Sans,-1,12,5,50,0,0,0,0,0",
+            "Noto Sans,-1,12,5,50,0,0,0,0,0",
+            "<** not defined **>",
+            "panels/about.pnl"
+        ],
+        [
+            "",
+            "Noto Sans,-1,12,5,75,0,0,0,0,0,Bold",
+            "Noto Sans,-1,12,5,75,0,0,0,0,0,Bold",
+            "<** not defined **>",
+            "panels/about.pnl"
+        ],
+        [
+            "",
+            "Noto Sans,-1,13,5,50,0,0,0,0,0",
+            "Noto Sans,-1,13,5,50,0,0,0,0,0",
+            "<** not defined **>",
+            "panels/about.pnl"
+        ],
+        [
+            "",
+            "Noto Sans,-1,16,5,50,0,0,0,0,0",
+            "Noto Sans,-1,16,5,50,0,0,0,0,0",
+            "Noto Sans,-1,16,5,50,0,0,0,0,0",
+            "panels/damper1.pnl\npanels/objects/damper_ref.pnl"
+        ],
+        [
+            "",
+            "Noto Sans,-1,48,5,50,0,0,0,0,0,Regular",
+            "Noto Sans,12,-1,5,50,0,0,0,0,0",
+            "Noto Sans,12,-1,5,50,0,0,0,0,0",
+            "panels/main.pnl"
+        ],
+        [
+            "",
+            "Noto Sans,12,-1,5,50,0,0,0,0,0",
+            "Noto Sans,12,-1,5,50,0,0,0,0,0",
+            "Noto Sans,12,-1,5,50,0,0,0,0,0",
+            "panels/objects/damper_ref.pnl\npanels/overview.pnl"
+        ],
+        [
+            "",
+            "OK",
+            "OK",
+            "OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCHDARead",
+            "OPCHDARead",
+            "OPCHDARead",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCHDARead@%s@",
+            "OPCHDARead@%s@",
+            "OPCHDARead@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCRead",
+            "OPCRead",
+            "OPCRead",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCRead@%s@",
+            "OPCRead@%s@",
+            "OPCRead@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUAAlarm",
+            "OPCUAAlarm",
+            "OPCUAAlarm",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUAAlarm@%s@",
+            "OPCUAAlarm@%s@",
+            "OPCUAAlarm@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUAEvent",
+            "OPCUAEvent",
+            "OPCUAEvent",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUAEvent@%s@",
+            "OPCUAEvent@%s@",
+            "OPCUAEvent@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUAHARead",
+            "OPCUAHARead",
+            "OPCUAHARead",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUAHARead@%s@",
+            "OPCUAHARead@%s@",
+            "OPCUAHARead@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUARead",
+            "OPCUARead",
+            "OPCUARead",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUARead@%s@",
+            "OPCUARead@%s@",
+            "OPCUARead@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUAWrite",
+            "OPCUAWrite",
+            "OPCUAWrite",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCUAWrite@%s@",
+            "OPCUAWrite@%s@",
+            "OPCUAWrite@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCWrite",
+            "OPCWrite",
+            "OPCWrite",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPCWrite@%s@",
+            "OPCWrite@%s@",
+            "OPCWrite@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPC_AE",
+            "OPC_AE",
+            "OPC_AE",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPC_AE@%s@",
+            "OPC_AE@%s@",
+            "OPC_AE@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPC_AE_Dynamic",
+            "OPC_AE_Dynamic",
+            "OPC_AE_Dynamic",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPC_AE_Dynamic@%s@",
+            "OPC_AE_Dynamic@%s@",
+            "OPC_AE_Dynamic@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPC_AE_Simple",
+            "OPC_AE_Simple",
+            "OPC_AE_Simple",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPC_AE_Simple@%s@",
+            "OPC_AE_Simple@%s@",
+            "OPC_AE_Simple@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "OPEN",
+            "ÖFFNEN",
+            "APRI",
+            "panels/damper1.pnl\npanels/objects/damper_ref.pnl"
+        ],
+        [
+            "",
+            "Old para",
+            "Altes Para",
+            "Old para",
+            "panels/para.pnl"
+        ],
+        [
+            "",
+            "Overview - Alert@@",
+            "Übersicht - Alert@@",
+            "Supervisione - Alert@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Overview - Danger@@",
+            "Übersicht - Danger@@",
+            "Supervisione - Danger@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Overview - Warning@@",
+            "Übersicht - Warning@@",
+            "Supervisione - Warning@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Parameters",
+            "Parameters",
+            "Parameters",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Parameters@%s@",
+            "Parameters@%s@",
+            "Parameters@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Position actual Value@%3.0f@%",
+            "Stellgrad@%3.0f@%",
+            "Position actual Value@%3.0f@%",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Power consumption@%3.1f@A",
+            "Stromaufnahme@%3.1f@A",
+            "Power consumption@%3.1f@A",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Record count OK",
+            "Record-Anzahl OK",
+            "Record count OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Redu@@",
+            "Redu@@",
+            "Redu@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Redu_2@@",
+            "Redu_2@@",
+            "Redu_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Report@@",
+            "Report@@",
+            "Report@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Report_2@@",
+            "Report_2@@",
+            "Report_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 1 - Active - No connection to redundant peer",
+            "Server 1 - Aktiv - Keine Verbindung zum redundanten Partner",
+            "Server 1 - Active - No connection to redundant peer",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 1 - Active due to split mode",
+            "Server 1 - Im Splitbetrieb aktiv",
+            "Server 1 - Active due to split mode",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 1 - Blocking Event Manager",
+            "Server 1 - Blockierender Event Manager",
+            "Server 1 - Blocking Event Manager",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 1 - Forced active",
+            "Server 1 - Aktiv erzwungen",
+            "Server 1 - Forced active",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 1 - Passive",
+            "Server 1 - Passiv",
+            "Server 1 - Passive",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 1 - Preferred active",
+            "Server 1 - Aktiv durch Vorzugslage",
+            "Server 1 - Preferred active",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 1 - Set active automatically",
+            "Server 1 - Automatisch aktiv gesetzt",
+            "Server 1 - Set active automatically",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 2 - Active - No connection to redundant peer",
+            "Server 2 - Aktiv - Keine Verbindung zum redundanten Partner",
+            "Server 2 - Active - No connection to redundant peer",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 2 - Active due to split mode",
+            "Server 2 - Im Splitbetrieb aktiv",
+            "Server 2 - Active due to split mode",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 2 - Blocking Event Manager",
+            "Server 2 - Blockierender Event Manager",
+            "Server 2 - Blocking Event Manager",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 2 - Forced active",
+            "Server 2 - Aktiv erzwungen",
+            "Server 2 - Forced active",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 2 - Passive",
+            "Server 2 - Passiv",
+            "Server 2 - Passive",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 2 - Preferred active",
+            "Server 2 - Aktiv durch Vorzugslage",
+            "Server 2 - Preferred active",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Server 2 - Set active automatically",
+            "Server 2 - Automatisch aktiv gesetzt",
+            "Server 2 - Set active automatically",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Speed@%3.0f@1/min",
+            "Drehzahl@%3.0f@1/min",
+            "Speed@%3.0f@1/min",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "SplitConnect",
+            "SplitConnect",
+            "SplitConnect",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "SplitConnect@%s@",
+            "SplitConnect@%s@",
+            "SplitConnect@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "SplitConnect_2",
+            "SplitConnect_2",
+            "SplitConnect_2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "SplitConnect_2@%s@",
+            "SplitConnect_2@%s@",
+            "SplitConnect_2@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "SplitGet",
+            "SplitGet",
+            "SplitGet",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "SplitGet@%s@",
+            "SplitGet@%s@",
+            "SplitGet@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "SplitGet_2",
+            "SplitGet_2",
+            "SplitGet_2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "SplitGet_2@%s@",
+            "SplitGet_2@%s@",
+            "SplitGet_2@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "StartPanel - Alert@@",
+            "StartPanel - Alert@@",
+            "StartPanel - Alert@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "StartPanel - Danger@@",
+            "StartPanel - Danger@@",
+            "StartPanel - Danger@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "StartPanel - Warning@@",
+            "StartPanel - Warning@@",
+            "StartPanel - Warning@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert FALSE _mp_BIT_CONDITION",
+            "Bereichsmeldung FALSE _mp_BIT_CONDITION",
+            "Statealert FALSE _mp_BIT_CONDITION",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert FALSE _mp_DRIVE1",
+            "Bereichsmeldung FALSE _mp_DRIVE1",
+            "Statealert FALSE _mp_DRIVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert FALSE _mp_DRIVE2",
+            "Bereichsmeldung FALSE _mp_DRIVE2",
+            "Statealert FALSE _mp_DRIVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert FALSE _mp_PUMP1",
+            "Bereichsmeldung FALSE _mp_PUMP1",
+            "Statealert FALSE _mp_PUMP1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert FALSE _mp_PUMP2",
+            "Bereichsmeldung FALSE _mp_PUMP2",
+            "Statealert FALSE _mp_PUMP2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert FALSE _mp_SLIDE_VALVE1",
+            "Bereichsmeldung FALSE _mp_SLIDE_VALVE1",
+            "Statealert FALSE _mp_SLIDE_VALVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert FALSE _mp_SLIDE_VALVE2",
+            "Bereichsmeldung FALSE _mp_SLIDE_VALVE2",
+            "Statealert FALSE _mp_SLIDE_VALVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert FALSE _mp_SLIDE_VALVE_HAND1",
+            "Bereichsmeldung FALSE _mp_SLIDE_VALVE_HAND1",
+            "Statealert FALSE _mp_SLIDE_VALVE_HAND1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert TRUE _mp_BIT_CONDITION",
+            "Bereichsmeldung TRUE _mp_BIT_CONDITION",
+            "Statealert TRUE _mp_BIT_CONDITION",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert TRUE _mp_DRIVE1",
+            "Bereichsmeldung TRUE _mp_DRIVE1",
+            "Statealert TRUE _mp_DRIVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert TRUE _mp_DRIVE2",
+            "Bereichsmeldung TRUE _mp_DRIVE2",
+            "Statealert TRUE _mp_DRIVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert TRUE _mp_PUMP1",
+            "Bereichsmeldung TRUE _mp_PUMP1",
+            "Statealert TRUE _mp_PUMP1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert TRUE _mp_PUMP2",
+            "Bereichsmeldung TRUE _mp_PUMP2",
+            "Statealert TRUE _mp_PUMP2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert TRUE _mp_SLIDE_VALVE1",
+            "Bereichsmeldung TRUE _mp_SLIDE_VALVE1",
+            "Statealert TRUE _mp_SLIDE_VALVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert TRUE _mp_SLIDE_VALVE2",
+            "Bereichsmeldung TRUE _mp_SLIDE_VALVE2",
+            "Statealert TRUE _mp_SLIDE_VALVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Statealert TRUE _mp_SLIDE_VALVE_HAND1",
+            "Bereichsmeldung TRUE _mp_SLIDE_VALVE_HAND1",
+            "Statealert TRUE _mp_SLIDE_VALVE_HAND1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "States",
+            "States",
+            "States",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "States@%s@",
+            "States@%s@",
+            "States@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sum alert",
+            "Summenalarm",
+            "Sum alert",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sum danger",
+            "Summengefahr",
+            "Sum danger",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sum warning",
+            "Summenwarnung",
+            "Sum warning",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert FALSE _mp_ANALOG2",
+            "Summenmeldung FALSE _mp_ANALOG2",
+            "Sumalert FALSE _mp_ANALOG2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert FALSE _mp_DRIVE1",
+            "Summenmeldung FALSE _mp_DRIVE1",
+            "Sumalert FALSE _mp_DRIVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert FALSE _mp_DRIVE2",
+            "Summenmeldung FALSE _mp_DRIVE2",
+            "Sumalert FALSE _mp_DRIVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert FALSE _mp_PUMP1",
+            "Summenmeldung FALSE _mp_PUMP1",
+            "Sumalert FALSE _mp_PUMP1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert FALSE _mp_PUMP2",
+            "Summenmeldung FALSE _mp_PUMP2",
+            "Sumalert FALSE _mp_PUMP2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert FALSE _mp_SLIDE_VALVE1",
+            "Summenmeldung FALSE _mp_SLIDE_VALVE1",
+            "Sumalert FALSE _mp_SLIDE_VALVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert FALSE _mp_SLIDE_VALVE2",
+            "Summenmeldung FALSE _mp_SLIDE_VALVE2",
+            "Sumalert FALSE _mp_SLIDE_VALVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert _mp_ANALOG2",
+            "Summenmeldung _mp_ANALOG2",
+            "Sumalert _mp_ANALOG2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert _mp_DRIVE1",
+            "Summenmeldung _mp_DRIVE1",
+            "Sumalert _mp_DRIVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert _mp_DRIVE2",
+            "Summenmeldung _mp_DRIVE2",
+            "Sumalert _mp_DRIVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert _mp_PUMP1",
+            "Summenmeldung _mp_PUMP1",
+            "Sumalert _mp_PUMP1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert _mp_PUMP2",
+            "Summenmeldung _mp_PUMP2",
+            "Sumalert _mp_PUMP2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert _mp_SLIDE_VALVE1",
+            "Summenmeldung _mp_SLIDE_VALVE1",
+            "Sumalert _mp_SLIDE_VALVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert _mp_SLIDE_VALVE2",
+            "Summenmeldung _mp_SLIDE_VALVE2",
+            "Sumalert _mp_SLIDE_VALVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Sumalert forced",
+            "Sumalert forced",
+            "Sumalert forced",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "The newest alert archive has errors",
+            "Das neueste Alarmarchiv ist fehlerhaft",
+            "The newest alert archive has errors",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Turn off necessary",
+            "Abschaltung noetig",
+            "Turn off necessary",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui1 user@@",
+            "Ui1 Benutzer@@",
+            "Ui1 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui10 user@@",
+            "Ui10 Benutzer@@",
+            "Ui10 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui110 user@@",
+            "Ui110 Benutzer@@",
+            "Ui110 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui2 user@@",
+            "Ui2 Benutzer@@",
+            "Ui2 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui3 user@@",
+            "Ui3 Benutzer@@",
+            "Ui3 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui4 user@@",
+            "Ui4 Benutzer@@",
+            "Ui4 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui5 user@@",
+            "Ui5 Benutzer@@",
+            "Ui5 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui6 user@@",
+            "Ui6 Benutzer@@",
+            "Ui6 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui8 user@@",
+            "Ui8 Benutzer@@",
+            "Ui8 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui9 user@@",
+            "Ui9 Benutzer@@",
+            "Ui9 user@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui@@",
+            "Ui@@",
+            "Ui@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Ui_2@@",
+            "Ui_2@@",
+            "Ui_2@@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Value to 1",
+            "Value to 1",
+            "Value to 1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Values",
+            "Values",
+            "Values",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Values@%s@",
+            "Values@%s@",
+            "Values@%s@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Vers",
+            "Plattform",
+            "<** not defined **>",
+            "panels/about.pnl"
+        ],
+        [
+            "",
+            "Warning H1 _mp_DRIVE1",
+            "Hochwarnung H1 _mp_DRIVE1",
+            "Warning H1 _mp_DRIVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning H1 _mp_DRIVE2",
+            "Hochwarnung H1 _mp_DRIVE2",
+            "Warning H1 _mp_DRIVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning H1 _mp_PUMP1",
+            "Hochwarnung H1 _mp_PUMP1",
+            "Warning H1 _mp_PUMP1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning H1 _mp_PUMP2",
+            "Hochwarnung H1 _mp_PUMP2",
+            "Warning H1 _mp_PUMP2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning H1 _mp_SETPOINT",
+            "Hochwarnung H1 _mp_SETPOINT",
+            "Warning H1 _mp_SETPOINT",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning H1 _mp_SLIDE_VALVE1",
+            "Hochwarnung H1 _mp_SLIDE_VALVE1",
+            "Warning H1 _mp_SLIDE_VALVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning H1 _mp_SLIDE_VALVE2",
+            "Hochwarnung H1 _mp_SLIDE_VALVE2",
+            "Warning H1 _mp_SLIDE_VALVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning L1 _mp_DRIVE1",
+            "Niederwarnung L1 _mp_DRIVE1",
+            "Warning L1 _mp_DRIVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning L1 _mp_DRIVE2",
+            "Niederwarnung L1 _mp_DRIVE2",
+            "Warning L1 _mp_DRIVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning L1 _mp_PUMP1",
+            "Niederwarnung L1 _mp_PUMP1",
+            "Warning L1 _mp_PUMP1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning L1 _mp_PUMP2",
+            "Niederwarnung L1 _mp_PUMP2",
+            "Warning L1 _mp_PUMP2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning L1 _mp_SETPOINT",
+            "Niederwarnung L1 _mp_SETPOINT",
+            "Warning L1 _mp_SETPOINT",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning L1 _mp_SLIDE_VALVE1",
+            "Niederwarnung L1 _mp_SLIDE_VALVE1",
+            "Warning L1 _mp_SLIDE_VALVE1",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning L1 _mp_SLIDE_VALVE2",
+            "Niederwarnung L1 _mp_SLIDE_VALVE2",
+            "Warning L1 _mp_SLIDE_VALVE2",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Warning Motor warm",
+            "Warning Motor warm",
+            "Warning Motor warm",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "Welcome to the basic training!",
+            "Welcome to the basic training!",
+            "Welcome to the basic training!",
+            "panels/main.pnl"
+        ],
+        [
+            "",
+            "_mp_ANALOG1 Comment @%5.2f@",
+            "_mp_ANALOG1 Kommentar @%5.2f@",
+            "_mp_ANALOG1 Comment @%5.2f@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "_mp_ANALOG2 Comment @%5.2f@",
+            "_mp_ANALOG2 Kommentar @%5.2f@",
+            "_mp_ANALOG2 Comment @%5.2f@",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "alliving database OK",
+            "alliving Datenbank OK",
+            "alliving database OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "alliving database has errors",
+            "alliving Datenbank ist fehlerhaft",
+            "alliving database has errors",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "aloverflow database OK",
+            "aloverflow Datenbank OK",
+            "aloverflow database OK",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "aloverflow database has errors",
+            "aloverflow Datenbank ist fehlerhaft",
+            "aloverflow database has errors",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "backup is running",
+            "Backup laeuft",
+            "backup is running",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "cmLicenseError",
+            "cmLicenseError",
+            "cmLicenseError",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "fault",
+            "Fehler",
+            "fault",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "matthias",
+            "matthias",
+            "matthias",
+            "dplist/dptexts.txt"
+        ],
+        [
+            "",
+            "no backup is running",
+            "Kein Backup laeuft",
+            "no backup is running",
+            "dplist/dptexts.txt"
+        ]
+    ],
+    "metadata": {
+        "version": 1
+    }
+}

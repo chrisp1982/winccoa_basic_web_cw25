@@ -1,0 +1,25 @@
+[general]
+pvss_path = "C:/Siemens/Automation/WinCC_OA/3.18"
+#proj_path = "..."	# sub proj for intergration
+proj_path = "C:/WinCC_OA_Proj/basic_web_cw25"
+proj_version = "3.18"
+langs = "de_AT.utf8"
+langs = "en_US.utf8"
+langs = "it_IT.utf8"
+useNGA = 1
+
+lang = "en_US.utf8"
+
+# comment
+[ui]
+defaultFont = "Noto Sans"
+httpServer = "https://localhost:8443"
+# loadCtrlLibs = "random"
+
+[ctrl]
+# loadCtrlLibs = "random,...,..."
+
+[webClient]
+httpPort = 0
+httpsPort = 8443
+

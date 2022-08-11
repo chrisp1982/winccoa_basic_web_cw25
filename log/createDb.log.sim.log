@@ -1,0 +1,24 @@
+WCCILsim     (1), 2022.06.20 14:50:23.036, SYS,  INFO,        1, Manager Start, PROJ, basic_web_cw25, V 3.18 - 3.18   platform Windows AMD64 linked at Jun  8 2022 21:28:31 (19a388a892f)
+WCCILsim     (1), 2022.06.20 14:50:23.044, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2022.06.20 14:50:23.051, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ md60kq8c.ad001.siemens.net (127.0.0.1)
+WCCILsim     (1), 2022.06.20 14:50:23.058, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._address:_original.._value
+WCCILsim     (1), 2022.06.20 14:50:23.059, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._cmd_conv:_original.._value
+WCCILsim     (1), 2022.06.20 14:50:23.059, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._msg_conv:_original.._value
+WCCILsim     (1), 2022.06.20 14:50:23.059, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._smooth:_original.._value
+WCCILsim     (1), 2022.06.20 14:50:23.059, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_Refresh.SecsToRefresh:_original.._value
+WCCILsim     (1), 2022.06.20 14:50:23.062, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.06.20 14:50:23.062, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2022.06.20 14:50:23.080, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ md60kq8c.ad001.siemens.net (127.0.0.1)
+WCCILsim     (1), 2022.06.20 14:50:23.097, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2022.06.20 14:50:23.097, SYS,  INFO,      156, Driver initialization finished.
+WCCILsim     (1), 2022.06.20 14:50:23.098, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AClasses:_original.._value
+WCCILsim     (1), 2022.06.20 14:50:23.098, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AckDps:_original.._value
+WCCILsim     (1), 2022.06.20 14:50:23.098, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AckData:_original.._value
+WCCILsim     (1), 2022.06.20 14:50:23.108, PARAM,WARNING,    90, DP attribute was connected twice, DP: (Type: 0 Sys: 1 Dp: 0 El: 0 : ..)
+WCCILsim     (1), 2022.06.20 14:50:23.108, PARAM,WARNING,    54, Unexpected state, AlertDrvIntDp, dpReady, dpConnect failed to Ack DPs
+WCCILsim     (1), 2022.06.20 14:50:52.981, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2022.06.20 14:50:53.019, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2022.06.20 14:50:53.019, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILsim     (1), 2022.06.20 14:50:53.020, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2022.06.20 14:50:53.020, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2022.06.20 14:50:53.020, SYS,  INFO,        2, Manager Stop

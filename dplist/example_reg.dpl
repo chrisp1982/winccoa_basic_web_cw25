@@ -1,0 +1,39 @@
+# ascii dump of database
+
+# DpType
+TypeName
+ExampleDP_Int.ExampleDP_Int	21#1
+
+# Datapoint/DpId
+DpName	TypeName	ID
+demoInt0	ExampleDP_Int	567
+demoInt1	ExampleDP_Int	569
+demoInt2	ExampleDP_Int	571
+demoInt3	ExampleDP_Int	573
+mod_test1	ExampleDP_Int	590
+mod_test2	ExampleDP_Int	591
+
+# DistributionInfo
+Manager/User	ElementName	TypeName	_distrib.._type	_distrib.._driver
+UI (1)/0	mod_test1.	ExampleDP_Int	56	\1
+UI (1)/0	mod_test2.	ExampleDP_Int	56	\1
+
+# DpConvRawToIngMain
+Manager/User	ElementName	TypeName	DetailNr	_msg_conv.._type	_msg_conv.._poly_grade	_msg_conv.._poly_a	_msg_conv.._poly_b	_msg_conv.._poly_c	_msg_conv.._poly_d	_msg_conv.._poly_e	_msg_conv.._linint_num	_msg_conv.._linint1_x	_msg_conv.._linint1_y	_msg_conv.._linint2_x	_msg_conv.._linint2_y	_msg_conv.._linint3_x	_msg_conv.._linint3_y	_msg_conv.._linint4_x	_msg_conv.._linint4_y	_msg_conv.._linint5_x	_msg_conv.._linint5_y	_msg_conv.._null_from	_msg_conv.._null_to	_msg_conv.._null_res	_msg_conv.._log_base	_msg_conv.._round_val	_msg_conv.._round_inv	_msg_conv.._trig_lim	_msg_conv.._trig_up	_msg_conv.._imp_edge	_msg_conv.._imp_rstval
+UI (1)/0	mod_test2.	ExampleDP_Int		33																											
+UI (1)/0	mod_test2.	ExampleDP_Int	1	3							2	0	0	2000	100	0	0	0	0	0	0										
+
+# DpConvIngToRawMain
+Manager/User	ElementName	TypeName	DetailNr	_cmd_conv.._type	_cmd_conv.._poly_grade	_cmd_conv.._poly_a	_cmd_conv.._poly_b	_cmd_conv.._poly_c	_cmd_conv.._poly_d	_cmd_conv.._poly_e	_cmd_conv.._linint_num	_cmd_conv.._linint1_x	_cmd_conv.._linint1_y	_cmd_conv.._linint2_x	_cmd_conv.._linint2_y	_cmd_conv.._linint3_x	_cmd_conv.._linint3_y	_cmd_conv.._linint4_x	_cmd_conv.._linint4_y	_cmd_conv.._linint5_x	_cmd_conv.._linint5_y	_cmd_conv.._null_from	_cmd_conv.._null_to	_cmd_conv.._null_res	_cmd_conv.._log_base	_cmd_conv.._round_val	_cmd_conv.._round_inv	_cmd_conv.._trig_lim	_cmd_conv.._trig_up	_cmd_conv.._imp_edge	_cmd_conv.._imp_rstval
+UI (1)/0	mod_test2.	ExampleDP_Int		36																											
+UI (1)/0	mod_test2.	ExampleDP_Int	1	3							2	0	0	100	2000	0	0	0	0	0	0										
+
+# DpSmoothMain
+Manager/User	ElementName	TypeName	_smooth.._type	_smooth.._std_type	_smooth.._std_tol	_smooth.._std_time	_smooth.._deriv_tol1	_smooth.._deriv_tol2	_smooth.._deriv_limit	_smooth.._deriv_time	_smooth.._flut_time	_smooth.._old_new
+UI (1)/0	mod_test2.	ExampleDP_Int	48	4	0	01.01.1970 00:00:00.000						
+
+# PeriphAddrMain
+Manager/User	ElementName	TypeName	_address.._type	_address.._reference	_address.._poll_group	_address.._connection	_address.._offset	_address.._subindex	_address.._direction	_address.._internal	_address.._lowlevel	_address.._active	_address.._start	_address.._interval	_address.._reply	_address.._datatype	_address.._drv_ident
+UI (1)/0	mod_test1.	ExampleDP_Int	16	"M.1.16.35"	 	 	0	0	\1	0	0	1	01.01.1970 00:00:00.000	01.01.1970 00:00:00.000	01.01.1970 00:00:00.000	561	"MODBUS"
+UI (1)/0	mod_test2.	ExampleDP_Int	16	"M.1.3.12"	_fast	 	0	0	\7	0	1	1	01.01.1970 00:00:00.000	01.01.1970 00:00:00.000	01.01.1970 00:00:00.000	561	"MODBUS"
+# ascii dump of database

@@ -1,0 +1,24 @@
+V 3
+TypeName	damper
+#DynamicAttribute:		_da_pv_range	_da_pv_range	_da_alert_hdl_3	_da_alert_hdl_3	_da_alert_hdl_3	_da_archive	_da_archive	_da_archive	_da_archive	_da_address_MODBUS_out_simple	_da_address_MODBUS_out_simple	_da_address_MODBUS_out_simple	_da_address_MODBUS_in_simple	_da_address_MODBUS_in_simple	_da_address_MODBUS_in_simple	_da_address_MODBUS_in_simple
+#Variable:		_max	_min	alertActive	maxAlert	minAlert	_class	_archive	_class	_archive	_active	_MODBUS_reference_part	_subindex	_active	_MODBUS_reference_part	polling	_subindex
+#Comment:		.command.setpoint Range: Maximum              [f]	.command.setpoint Range: Minimum              [f]	.response.alarm.temp Alert handling with 3 ranges: Active alert      [b0/1]	.response.alarm.temp Alert handling with 3 ranges: Upper alert limit    [f]	.response.alarm.temp Alert handling with 3 ranges: Lower alert limit    [f]	.command.setpoint Archiv: Archive class     [dp s]	.command.setpoint Archiv: Enable archiving  [b0/1]	.response.actvalue Archiv: Archive class     [dp s]	.response.actvalue Archiv: Enable archiving  [b0/1]	.command.setpoint Modbus output simple: Address active    [b0/1]	.command.setpoint Modbus output simple: Adr.     [<PLCNo>.<Ref.Number>]	.command.setpoint Modbus output simple: Subindex       [0..1023]	.response.actvalue Modbus input simple: Address active    [b0/1]	.response.actvalue Modbus input simple: Adr.     [<PLCNo>.<Ref.Number>]	.response.actvalue Modbus input simple: Polling           [b0/1]	.response.actvalue Modbus input simple: Subindex       [0..1023]
+#Type:		float	float	bool	langStringText	langStringText	string	bool	string	bool	bool	string	int	bool	string	bool_possible	int
+Action	ElementName	.command.setpoint:_da_pv_range.._max	.command.setpoint:_da_pv_range.._min	.response.alarm.temp:_da_alert_hdl_3..alertActive	.response.alarm.temp:_da_alert_hdl_3..maxAlert	.response.alarm.temp:_da_alert_hdl_3..minAlert	.command.setpoint:_da_archive.._class	.command.setpoint:_da_archive.._archive	.response.actvalue:_da_archive.._class	.response.actvalue:_da_archive.._archive	.command.setpoint:_da_address_MODBUS_out_simple.._active	.command.setpoint:_da_address_MODBUS_out_simple.._MODBUS_reference_part	.command.setpoint:_da_address_MODBUS_out_simple.._subindex	.response.actvalue:_da_address_MODBUS_in_simple.._active	.response.actvalue:_da_address_MODBUS_in_simple.._MODBUS_reference_part	.response.actvalue:_da_address_MODBUS_in_simple..polling	.response.actvalue:_da_address_MODBUS_in_simple.._subindex
+I	d1	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	TRUE	1.10	0	TRUE	1.11	TRUE	0
+I	d2	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	TRUE	1.20	0	TRUE	1.21	TRUE	0
+M	d3	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	TRUE	1.30	0	TRUE	1.31	TRUE	0
+M	d4	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	TRUE	1.40	0	TRUE	1.41	TRUE	0
+M	d5	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	TRUE	1.50	0	TRUE	1.51	TRUE	0
+M	d6	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	TRUE	1.60	0	TRUE	1.61	TRUE	0
+I	d7	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+I	d8	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+I	d9	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+I	d10	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+I	d11	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+I	d12	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+I	d13	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+I	d14	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+D	d15	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+I	_mp_damper	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.0	0	FALSE	1.1	TRUE	0
+M	d20	100	0	TRUE	120	80	_NGA_G_EVENT	TRUE	_NGA_G_EVENT	TRUE	FALSE	1.200	0	FALSE	1.201	TRUE	0

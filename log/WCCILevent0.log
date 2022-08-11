@@ -1,0 +1,222 @@
+WCCILevent   (0), 2022.06.21 09:45:21.224 (3.18   platform Windows AMD64 linked at Jun  8 2022 21:28:31 (19a388a892f)): SNDLEVEL=0, RCVLEVEL=0, DBGLEVEL=NONE, REPORT=ALL, LOG=(1)LOG_FILE
+
+WCCILevent (3.18   platform Windows AMD64 linked at Jun  8 2022 21:28:31 (19a388a892f)) [2022.06.21;09:45:21:225 ] status report:
+PID: 12956
+User #0: root
+StartTime: "2022.06.21 08:40:20.572"
+Managerstate : STATE_RUNNING
+-- Used CPU Time (in sec.) 
+ User   : 1sec 93750microsec
+ System : 0sec 234375microsec
+
+-- Memory Status Summary 
+ percent of memory in use    : 44
+ kB of physical memory    : 33250360
+ free physical memory kB  : 18610172
+ kB of paging file        : 38231096
+ free kB of paging file   : 20417128
+ user kB of address space : -128
+ free user kB             : -4433864
+-- Heap Summary 
+ total number of heaps                : 3
+ total size of the heap               : 35076848
+ chunks allocated by the user         : 197166
+ bytes total of allocated chunks      : 14423434
+ chunks in the free list              : 9
+ bytes total of chunks in free list   : 18493440
+
+-- Manager connection status: 
+  *: Target is active, #: Accepting messages, C: Connecting, x: Closing, X: Disconnected
+*#  (SYS: 1 Event -num 0 CONN: 1) @ md60kq8c.ad001.siemens.net:58396 (127.0.0.1)  --> (SYS: 1 Data -num 0 CONN: 1) @ md60kq8c.ad001.siemens.net:4897 (127.0.0.1)   Msg. Comp: none   Recv (pending / max pending / total): 0B / 64kB / 2MB  Send (pending / max pending / total): 0B / 66kB / 1MB
+*#  (SYS: 1 Event -num 0 CONN: 1) @ md60kq8c.ad001.siemens.net:4998 (127.0.0.1)  --> (SYS: 1 Data -num 120 CONN: 1) @ md60kq8c.ad001.siemens.net:58397 (127.0.0.1)   Msg. Comp: none   Recv (pending / max pending / total): 0B / 11kB / 13kB  Send (pending / max pending / total): 0B / 66kB / 1MB
+*#  (SYS: 1 Event -num 0 CONN: 1) @ md60kq8c.ad001.siemens.net:4998 (127.0.0.1)  --> (SYS: 1 Ctrl -num 1 CONN: 1) @ md60kq8c.ad001.siemens.net:58401 (127.0.0.1)   Msg. Comp: none   Recv (pending / max pending / total): 0B / 5kB / 36kB  Send (pending / max pending / total): 0B / 11kB / 54kB
+*#  (SYS: 1 Event -num 0 CONN: 1) @ md60kq8c.ad001.siemens.net:4998 (127.0.0.1)  --> (SYS: 1 Driver -num 1 CONN: 1) @ md60kq8c.ad001.siemens.net:58403 (127.0.0.1)   Msg. Comp: none   Recv (pending / max pending / total): 0B / 3kB / 4kB  Send (pending / max pending / total): 0B / 6kB / 10kB
+*#  (SYS: 1 Event -num 0 CONN: 1) @ md60kq8c.ad001.siemens.net:4998 (127.0.0.1)  --> (SYS: 1 Ui -num 1 CONN: 1) @ md60kq8c.ad001.siemens.net:58425 (127.0.0.1)   Msg. Comp: none   Recv (pending / max pending / total): 0B / 6kB / 36kB  Send (pending / max pending / total): 0B / 8kB / 102kB
+
+-- answerList: Nr of entries: 0
+-- connectList: Nr of entries: 85
+-- queryList: Nr of entries: 0
+-- corrList: Nr of entries: 63
+-- globalList: Nr of entries: 0
+-- alertList: Nr of entries: 1
+-- Typecontainer    Bytes: 217668 Nr. of Types     : 0240 Nr. of Nodes: 4377 Nr. of TypeRef: 0029
+-- DpIdentification status report (SUMMARY):
+Number of systems: 1
+ System 1
+ Total memory usage for this System: 288270 bytes
+Total memory usage: 288270 bytes
+-- CNS status report:
+Manager does not use CNS.
+-- Number of DpElements allocated: 13309
+-- config container Bytes: 1069256
+
+
+-- config container details
+count  *   config name
+------------------------------------------
+013123 *   _original      DPCONFIG_VALUE 
+000014 *   _default       DPCONFIG_DEFAULTVALUE 
+000029 *   _pv_range      DPCONFIG_MINMAX_PVSS_RANGECHECK 
+000061 *   _alert_hdl     DPCONFIG_ALERT_BINARYSIGNAL 
+000054 *   _alert_hdl     DPCONFIG_ALERT_NONBINARYSIGNAL 
+000021 *   _alert_class   DPCONFIG_ALERT_CLASS 
+000125 *   _distrib       DPCONFIG_DISTRIBUTION_INFO 
+000011 *   _alert_hdl     DPCONFIG_SUM_ALERT 
+000006 *   _dp_fct        DPCONFIG_DP_FUNCTION 
+000107 *   _auth          DPCONFIG_AUTH 
+000066 *   _dp_fct        DPCONFIG_STAT_FUNCTION 
+
+
+
+-- License
+version     = 31800000
+sn          = "CodeMeter sn:130-3185907190"
+expire      = 2023.02.01;00:59:59,000 
+demoPeriod  = 30d
+ui          = 1
+para        = 1
+event       = 1
+ios         = 2000000000
+ssi         = 0
+archive     = 3
+ctrl        = 1
+update      = 2
+
+---- Controller report: 
+ Nr. of scripts    :     72
+   thereof active  :     66
+ Nr. of threads    :      0
+ Nr. of global vars:     30
+ Nr. of lib vars   :      5
+ Nr. of scope libs :      0
+ Nr. of lib funcs  :    298
+ Nr. of user types :     23
+   used:    1 "AcknowledgeTable"
+   used:    4 "UserManagementArea"
+   used:    5 "OaAuthFeature"
+   used:    3 "OaAuthMethod"
+   used:    2 "OaAuthFactory"
+   used:    0 "OaLanguage"
+   used:    4 "AuthCommand"
+   used:    0 "OaAuthMethodAD"
+   used:    8 "AuthCommandOperation"
+   used:    9 "OaAuthenticationType"
+   used:   27 "UserManagement"
+   used:    0 "OaAuthMethodStandard"
+   used:   18 "AuthCommandType"
+   used:   52 "OaAuthenticationError"
+   used:   16 "UserManagementGroup"
+   used:    0 "CommandInterface"
+   used:    2 "OaAuthLoginState"
+   used:  172 "UserManagementKey"
+   used:   12 "UserManagementUser"
+   used:    0 "ErrCode"
+   used:    0 "OaAuthError"
+   used:    0 "OaAuthMethodUserdefined"
+   used:    4 "UserManagementBaseType"
+ Nr. of type aliases:     0
+ Nr. of libs       :     24
+     0 (2022.06.07 15:42:56.000)  used:  5/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\STD_Symbols.ctl"
+     1 (2022.06.07 15:42:56.000)  used:  0/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\userMan.ctl"
+     2 (2022.06.08 11:36:30.000)  used:  0/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\std.ctl"
+     3 (2022.06.07 15:42:56.000)  used: 31/27 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\userManagement\\UserManagement.ctl"
+     4 (2022.06.07 15:42:56.000)  used:  0/30 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\userManagement\\AuthCommand.ctl"
+     5 (2022.06.07 15:42:56.000)  used:  0/172 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\userManagement\\UserManagementKey.ctl"
+     6 (2022.06.07 15:42:56.000)  used:  0/4 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\userManagement\\UserManagementArea.ctl"
+     7 (2022.06.07 15:42:56.000)  used:  4/4 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\userManagement\\UserManagementBaseType.ctl"
+     8 (2022.06.07 15:42:56.000)  used:  0/12 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\userManagement\\UserManagementUser.ctl"
+     9 (2022.06.07 15:42:56.000)  used:  0/16 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\userManagement\\UserManagementGroup.ctl"
+    10 (2022.06.07 15:42:56.000)  used:  0/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\libCTRL.ctl"
+    11 (2022.06.08 11:36:30.000)  used:  0/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\dpGetCache.ctl"
+    12 (2022.06.07 15:42:56.000)  used:  0/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\asModifyDisplay.ctl"
+    13 (2022.06.07 15:42:56.000)  used:  0/1 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\AcknowledgeTable.ctl"
+    14 (2022.06.07 15:42:56.000)  used:  0/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\login.ctl"
+    15 (2022.06.07 15:42:56.000)  used:  0/2 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\auth\\OaAuthFactory.ctl"
+    16 (2022.06.08 09:47:00.000)  used:  4/10 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\auth\\OaAuthMethod.ctl"
+    17 (2022.06.07 15:42:56.000)  used:  0/9 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\auth\\OaAuthenticationType.ctl"
+    18 (2022.06.07 15:42:56.000)  used:  0/52 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\auth\\OaAuthenticationError.ctl"
+    19 (2022.06.07 15:42:56.000)  used:  3/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\auth\\OaAuthMethodStandard.ctl"
+    20 (2022.06.08 11:36:30.000)  used:  3/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\auth\\OaAuthMethodAD.ctl"
+    21 (2022.06.08 21:47:50.000)  used:  0/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\CommandInterface.ctc"
+    22 (2022.06.07 15:42:56.000)  used:  4/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\auth\\OaAuthMethodUserdefined.ctl"
+    23 (2022.06.07 15:42:56.000)  used:  1/0 "C:\\Siemens\\Automation\\WinCC_OA\\3.18\\scripts\\libs\\classes\\auth\\OaAuthError.ctl"
+ Loaded CTRL extensions:
+   "CtrlOSConnector"
+   "CtrlXml"
+   "CtrlPv2Admin"
+ Memory Usage (approximation):
+                     int:            90          2160
+                  string:            10           736
+                 mapping:           148          7104
+         dyn_dyn_anytype:            73          3504
+              CtrlScript:            96         26112
+                 anytype:            11           520
+                    bool:            74          1184
+                 CtrlVar:           406         68909
+                     Sum:                      110229 Bytes
+ --------------------------------------------------------------------- 
+query container holds 3 queries
+
+--- dpConnects status
+List contains 236 items
+Connection count by manager type: 
+  EVENT: 163
+  DRIVER: 24
+  DATA: 27
+  UI: 26
+  CTRL: 57
+  Total: 297
+
+--- dpConnects status
+List contains 236 items
+Connection count by manager type: 
+  EVENT: 163
+  DRIVER: 24
+  DATA: 27
+  UI: 26
+  CTRL: 57
+  Total: 297
+
+--- dpConnects status
+List contains 236 items
+Connection count by manager type: 
+  EVENT: 163
+  DRIVER: 24
+  DATA: 27
+  UI: 26
+  CTRL: 57
+  Total: 297
+
+--- dpConnects status
+List contains 236 items
+Connection count by manager type: 
+  EVENT: 163
+  DRIVER: 24
+  DATA: 27
+  UI: 26
+  CTRL: 57
+  Total: 297
+ --- RequestQueue: List contains 0 items 
+ValueChangeQueue status
+List contains 0 items thereof 0 are blocking
+eventmanager message queues:
+ [ (SYS: 1 Data -num 0 CONN: 1) ]  current: 0    deja vu: 0    max: 10    lastMsgID: 3475    lastRcvdMsgID: 3475    remMsgCount: 0    throughput in  [msg/sec]: 0    throughput out [msg/sec]: 0
+ [ (SYS: 1 Event -num 0 CONN: 1) ]  current: 0    deja vu: 0    max: 39    lastMsgID: 14003    lastRcvdMsgID: 14003    remMsgCount: 0    throughput in  [msg/sec]: 1    throughput out [msg/sec]: 0
+ [ (SYS: 1 Data -num 120 CONN: 1) ]  current: 0    deja vu: 0    max: 74    lastMsgID: 92    lastRcvdMsgID: 92    remMsgCount: 0    throughput in  [msg/sec]: 0    throughput out [msg/sec]: 0
+ [ (SYS: 1 Ctrl -num 1 CONN: 1) ]  current: 0    deja vu: 0    max: 15    lastMsgID: 154    lastRcvdMsgID: 154    remMsgCount: 0    throughput in  [msg/sec]: 0    throughput out [msg/sec]: 0
+ [ (SYS: 1 Driver -num 1 CONN: 1) ]  current: 0    deja vu: 0    max: 23    lastMsgID: 61    lastRcvdMsgID: 61    remMsgCount: 0    throughput in  [msg/sec]: 0    throughput out [msg/sec]: 0
+ [ (SYS: 1 Ui -num 1 CONN: 1) ]  current: 0    deja vu: 0    max: 24    lastMsgID: 97    lastRcvdMsgID: 97    remMsgCount: 0    throughput in  [msg/sec]: 0    throughput out [msg/sec]: 0
+ [ (SYS: 1 Event -num 2 CONN: 1) ]  current: 0    deja vu: 0    max: 2    lastMsgID: 5243    lastRcvdMsgID: 5243    remMsgCount: 0    throughput in  [msg/sec]: 0    throughput out [msg/sec]: 0
+
+redundancy message buffer size: 0
+valuechange answerqueue size  : 0
+connect answerqueue sizes     : 0 / 0
+request answerqueue size      : 0
+
+-- Redundancy information
+Not running in redundant mode
+EvDpManager:
+  Nr. of undo/redo-Configs: 15
+Existing alarm instance in the event manager: 0
+
+No fixed licenses

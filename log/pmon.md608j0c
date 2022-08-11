@@ -1,0 +1,21 @@
+WCCILpmon    (1), 2022.08.10 09:59:53.344, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2022.08.10 09:59:53.493, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILdata.exe -PROJ basic_web_cw25 -pmonIndex 1 
+WCCILpmon    (1), 2022.08.10 09:59:54.802, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAnextgenarch.exe -PROJ basic_web_cw25 -pmonIndex 2 
+WCCILpmon    (1), 2022.08.10 09:59:55.165, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILevent.exe -PROJ basic_web_cw25 -pmonIndex 3 
+WCCILpmon    (1), 2022.08.10 09:59:55.516, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCILproxy.exe -PROJ basic_web_cw25 -pmonIndex 4 
+WCCILpmon    (1), 2022.08.10 09:59:55.769, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 5 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.08.10 09:59:56.103, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAui.exe -PROJ basic_web_cw25 -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2022.08.10 10:00:00.041, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOActrl.exe -PROJ basic_web_cw25 -pmonIndex 9 damperSimulation.ctl
+WCCILpmon    (1), 2022.08.10 10:00:00.413, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.18\bin\WCCOAmod.exe -PROJ basic_web_cw25 -pmonIndex 12 -num 1
+WCCILpmon    (1), 2022.08.10 10:00:00.628, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.08.10 14:13:28.792, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.08.10 14:13:28.793, SYS,  INFO,       17/pmon, Stopping Manager WCCOAmod(1) with signal SIGTERM
+WCCILpmon    (1), 2022.08.10 14:13:28.794, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2022.08.10 14:13:28.794, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2022.08.10 14:13:28.795, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.08.10 14:13:28.795, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.08.10 14:13:50.086, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.08.10 14:13:50.193, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.08.10 14:13:51.250, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.08.10 14:13:52.322, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.08.10 14:13:52.323, SYS,  INFO,        2, Manager Stop
